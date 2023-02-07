@@ -1,7 +1,7 @@
 clc
 clear all
 
-addpath ACDC
+addpath ACDC_input
 addpath FUNCTIONS 
            %pa2cmmc = Pa -> cm-3
            %ppt2cmmc = ppt -> cm-3

@@ -19,7 +19,7 @@ ACDCsource(sa_conc,ppt2cmmc(am_conc,temp)) %adjust ACDCsource
 [T,C,J_out]=ACDCrun(); 
 J_out(end)
 
-get_evap; get_coll; get_wl; get_cs;
+%get_evap; get_coll; get_wl; get_cs;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %leave back from RUN folder
 cd '../'

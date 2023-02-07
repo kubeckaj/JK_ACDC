@@ -2,7 +2,7 @@ function [] = ACDCinit(Temp)
 %ACDCINIT Summary of this function goes here
 %   Detailed explanation goes here
 
-  command="perl ../ACDC/acdc_2020_07_20.pl";
+  command="perl ../ACDC_input/acdc_2020_07_20.pl";
   command=command+" --temperature "+num2str(Temp);
   command=command+" --e ../ACDC_input/HS298.15K.txt";
   command=command+" --i ../ACDC_input/input.inp";
